@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import NumberFormat from "react-number-format"
+import CountUp from 'react-countup'
+
 
 const Indonesia = () => {
     const[cfm, setCfm] = useState([])
@@ -19,9 +20,9 @@ const Indonesia = () => {
     return (
         <div className = "center">
         <h1>Indonesia</h1>
-            <h1 className="card-container1"><p>Dikonfirmasi <NumberFormat value={cfm} thousandSeparator={true} displayType = {'text'}/></p></h1>
-            <h1 className="card-container2"><p>Sembuh <NumberFormat value={rcv} thousandSeparator={true} displayType = {'text'}/></p></h1>
-            <h1 className="card-container3"><p>Meninggal <NumberFormat value={dead} thousandSeparator={true} displayType = {'text'}/></p></h1>
+        <h1 className="card-container1"><p>Dikonfirmasi {cfm} </p></h1>
+        <h1 className="card-container2"><p>Sembuh {rcv} </p></h1>
+        <h1 className="card-container3"><p>Meninggal {dead} </p></h1>
         </div>
     );
 };
