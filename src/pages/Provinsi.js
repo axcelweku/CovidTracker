@@ -13,7 +13,7 @@ const Provinsi = () => {
     }, []);
 
     return (
-        <div>
+        <div className = "center">
         <table border="1">
                <tr>
                    <td>

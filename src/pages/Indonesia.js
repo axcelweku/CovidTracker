@@ -19,7 +19,6 @@ const Indonesia = () => {
     });
     return (
         <div className = "center">
-        <h1>Indonesia</h1>
         <h1 className="card-container1"><p>Dikonfirmasi {cfm} </p></h1>
         <h1 className="card-container2"><p>Sembuh {rcv} </p></h1>
         <h1 className="card-container3"><p>Meninggal {dead} </p></h1>
