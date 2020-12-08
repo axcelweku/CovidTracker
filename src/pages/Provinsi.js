@@ -13,7 +13,9 @@ const Provinsi = () => {
     }, []);
 
     return (
-        <div className = "center">
+        <div>
+            <b><i> Jumlah Kasus Dari Berbagai <br></br>
+                Provisni Yang Ada Di Indonesia</i></b>
         <table border="1">
                <tr>
                    <td>

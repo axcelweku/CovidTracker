@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import CountUp from 'react-countup'
 
 
 const Indonesia = () => {
@@ -18,10 +17,13 @@ const Indonesia = () => {
             });
     });
     return (
+        <div>
+            <b><i> Jumlah Kasus Di Indonesia</i></b>
         <div className = "center">
-        <h1 className="card-container1"><p>Dikonfirmasi {cfm} </p></h1>
-        <h1 className="card-container2"><p>Sembuh {rcv} </p></h1>
-        <h1 className="card-container3"><p>Meninggal {dead} </p></h1>
+            <h1 className="card-container1"><p>Dikonfirmasi {cfm} </p></h1>
+            <h1 className="card-container2"><p>Sembuh {rcv} </p></h1>
+            <h1 className="card-container3"><p>Meninggal {dead} </p></h1>
+        </div>
         </div>
     );
 };

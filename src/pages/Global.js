@@ -17,10 +17,13 @@ const Global = () => {
             });
     });
     return (
+        <div>
+            <b><i> Jumlah Kasus Secara Global </i></b>
         <div className = "center">
             <h1 className="card-container1"><p>Confirmed {cfm}</p></h1>
             <h1 className="card-container2"><p>Recovered {rcv}</p></h1>
             <h1 className="card-container3"><p>Deaths {dead}</p></h1>
+        </div>
         </div>
     );
 };
